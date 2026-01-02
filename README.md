@@ -17,7 +17,7 @@ It's part of the [Omarchy Red Forest Theme](https://github.com/AlexZeitler/omarc
     lazy = false,
     priority = 1000,
     config = function()
-        vim.cmd.colorscheme("red-forest")
+        require("red-forest").setup()
     end,
 }
 ```
@@ -27,9 +27,9 @@ It's part of the [Omarchy Red Forest Theme](https://github.com/AlexZeitler/omarc
 ```lua
 use {
     "alexzeitler/red-forest.nvim",
-    requires = { "bjarneo/aether.nvim" },
+    requires = { { "bjarneo/aether.nvim", branch = "v2" } },
     config = function()
-        vim.cmd.colorscheme("red-forest")
+        require("red-forest").setup()
     end,
 }
 ```
@@ -37,7 +37,7 @@ use {
 ## Usage
 
 ```lua
-vim.cmd.colorscheme("red-forest")
+require("red-forest").setup()
 ```
 
 ## Colors

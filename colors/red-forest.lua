@@ -1,1 +1,0 @@
-require("red-forest").setup()
