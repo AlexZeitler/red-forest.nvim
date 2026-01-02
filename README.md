@@ -11,6 +11,9 @@ It's part of the [Omarchy Red Forest Theme](https://github.com/AlexZeitler/omarc
 ```lua
 {
     "alexzeitler/red-forest.nvim",
+    dependencies = {
+        { "bjarneo/aether.nvim", branch = "v2" },
+    },
     lazy = false,
     priority = 1000,
     config = function()
@@ -24,6 +27,7 @@ It's part of the [Omarchy Red Forest Theme](https://github.com/AlexZeitler/omarc
 ```lua
 use {
     "alexzeitler/red-forest.nvim",
+    requires = { "bjarneo/aether.nvim" },
     config = function()
         vim.cmd.colorscheme("red-forest")
     end,
