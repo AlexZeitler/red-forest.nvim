@@ -5,6 +5,8 @@ The theme combines cool violet undertones in the background with warm, woody red
 It's part of the [Omarchy Red Forest Theme](https://github.com/AlexZeitler/omarchy-red-forest-theme)
 ![](./assets/readme.md.png)
 
+![](./assets/init.lua.png)
+
 ## Installation
 
 ### lazy.nvim
